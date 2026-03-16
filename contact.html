@@ -3,44 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>צור קשר | טכנאי מוצרי חשמל ביתיים</title>
+  <title>צור קשר | יקי שירותים בע"מ</title>
   <link rel="stylesheet" href="css/styles.css">
   <script defer src="js/main.js"></script>
+  <script defer src="js/background.js"></script>
 </head>
 <body>
-<header>
-  <img src="img/logo.png" alt="לוגו טכנאי">
-  <nav>
-    <ul>
-      <li><a href="index.html">בית</a></li>
-      <li><a href="about.html">אודות</a></li>
-      <li><a href="services.html">שירותים</a></li>
-      <li><a href="areas.html">אזורי שירות</a></li>
-      <li><a href="contact.html" class="active">צור קשר</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  <section class="contact">
-    <h1>צור קשר</h1>
-    <form id="contactForm">
-      <label for="name">שם:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="phone">טלפון:</label>
-      <input type="tel" id="phone" name="phone" required>
-      <label for="message">הודעה:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">שלח</button>
-    </form>
-    <div id="formResponse"></div>
-    <div class="quick-contact">
-      <a href="tel:0503131231" class="phone-btn">התקשר עכשיו</a>
-      <a href="https://wa.me/972503131231" class="whatsapp-btn">שלח הודעת WhatsApp</a>
-    </div>
-  </section>
-</main>
-<footer>
-  <p>© 2026 טכנאי מוצרי חשמל ביתיים</p>
-</footer>
+  <div class="animated-bg"></div>
+  <header>
+    <div class="logo-main"><h1>יקי שירותים בע"מ</h1></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">בית</a></li>
+        <li><a href="about.html">אודות</a></li>
+        <li><a href="services.html">שירותים</a></li>
+        <li><a href="areas.html">אזורי שירות</a></li>
+        <li><a href="contact.html" class="active">צור קשר</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="funky-section contact">
+      <h2>צור קשר עם טכנאי</h2>
+      <form id="contactForm">
+        <label for="name">שם:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="phone">טלפון:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="message">הודעה:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="cta-btn neon">שלח</button>
+      </form>
+      <div id="formResponse" style="margin-top:12px;"></div>
+      <div class="quick-contact">
+        <a href="tel:0503131231" class="phone-btn">התקשר עכשיו</a>
+        <a href="https://wa.me/972503131231" class="whatsapp-btn">שלח WhatsApp</a>
+      </div>
+      <div class="contact-funky">
+        <img src="img/phone.svg" alt="טלפון" style="width:66px;margin-top:20px;">
+        <img src="img/chat.svg" alt="שיחה" style="width:66px;">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 יקי שירותים בע\"מ</p>
+  </footer>
 </body>
 </html>
